@@ -19,11 +19,11 @@ load_dotenv()
 # PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME")
 
 
-AZURE_OPENAI_ENDPOINT= "https://koshi-m8fjen9l-eastus.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini-codecrunch/chat/completions?api-version=2025-01-01-preview"
-PINECONE_API_KEY ="pcsk_qxG6y_7mF9ZdL9ssuoDJ7GPKzNQuJcWLZW8972xbfobnjtvTfiQeghhDJVzMXxGNJAFSD" 
-AZURE_OPENAI_KEY  = "8n2pZ5pvRR38rijG4zJZyqmSFBiQeaMmy3kYmk7dXvJRsDWszF36JQQJ99BCACYeBjFXJ3w3AAAAACOGKr9B"
-PINECONE_INDEX_NAME = "codecrunch-march"
+AZURE_OPENAI_ENDPOINT= ""
+AZURE_OPENAI_KEY  = ""
 AZURE_DEPLOYMENT_NAME = "gpt-4o-mini-codecrunch"
+PINECONE_INDEX_NAME = "codecrunch-march"
+PINECONE_API_KEY ="" 
 
 app = Flask(__name__)
 
